@@ -16,7 +16,7 @@ export default function Secrets() {
 	}
 	return (
 		<div className='dead-center text-center'>
-			<img src={photoURL} alt='Display Picture' />
+			<img src={photoURL} alt='Display' />
 			<h1>{displayName}</h1>
 			<h1>{email}</h1>
 			<Button
