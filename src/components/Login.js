@@ -26,7 +26,7 @@ export default function Login() {
 					size='large'
 					variant='outlined'
 					color='default'
-					className='btn btn-light animate__animated animate__fadeInDown'>
+					className='animate__animated animate__fadeInDown'>
 					<Google fontSize='large' />
 					Log in with google
 				</Button>
