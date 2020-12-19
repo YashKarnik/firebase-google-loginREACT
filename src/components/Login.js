@@ -1,36 +1,31 @@
-import firebase from 'firebase/app';
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from '@material-ui/core';
-import { useThemeContext } from '../contexts/themeContext';
 import { useUserContext } from '../contexts/userAuthContext';
 import { Google } from '../assets/svg/SVGindex';
-
-import { auth } from '../firebase';
+import { useHistory } from 'react-router-dom';
 
 export default function Login() {
-	const provider = new firebase.auth.GoogleAuthProvider();
-	provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+	const { login } = useUserContext();
+	const history = useHistory();
 
-	function handleSubmit(e) {
+	async function handleSubmit(e) {
 		e.preventDefault();
-	}
-
-	function login(e) {
-		e.preventDefault();
-		auth
-			.signInWithPopup(provider)
-			.then(user => console.log(user))
-			.catch(err => console.log(err));
+		try {
+			await login();
+			history.push('/hello');
+		} catch (error) {
+			console.log(error);
+		}
 	}
 
 	return (
 		<div>
 			<form className='dead-center' onSubmit={handleSubmit}>
 				<Button
+					type='submit'
 					size='large'
 					variant='outlined'
 					color='default'
-					onClick={login}
 					className='btn btn-light animate__animated animate__fadeInDown'>
 					<Google fontSize='large' />
 					Log in with google

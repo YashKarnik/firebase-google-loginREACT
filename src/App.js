@@ -1,19 +1,18 @@
 import './css/index.css';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { ThemeProvider } from './contexts/themeContext';
 import { UserProvider } from './contexts/userAuthContext';
+import PrivateRoute from './components/PrivateRoute';
 import Login from './components/Login';
+import Secrets from './components/Secrets';
 function App() {
 	return (
 		<Router>
-			<ThemeProvider>
-				<UserProvider>
-					<Route exact='/' component={Login} />
-				</UserProvider>
-			</ThemeProvider>
+			<UserProvider>
+				<Route exact path='/' component={Login} />
+				<PrivateRoute exact path='/hello' component={Secrets} />
+			</UserProvider>
 		</Router>
 	);
 }
