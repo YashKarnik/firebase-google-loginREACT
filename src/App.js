@@ -1,6 +1,6 @@
 import './css/index.css';
 import 'animate.css/animate.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { UserProvider } from './contexts/userAuthContext';
 import PrivateRoute from './components/PrivateRoute';
