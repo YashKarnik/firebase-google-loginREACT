@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/css/base_utils.css"],"names":[],"mappings":"AAAA,aACC,iBACD,CACA,aACC,iBAAkB,CAClB,QAAS,CACT,OAAQ,CACR,8BACD","file":"main.01fcd099.chunk.css","sourcesContent":[".text-center {\r\n\ttext-align: center;\r\n}\r\n.dead-center {\r\n\tposition: absolute;\r\n\tleft: 50%;\r\n\ttop: 50%;\r\n\ttransform: translate(-50%, -50%);\r\n}\r\n"]}

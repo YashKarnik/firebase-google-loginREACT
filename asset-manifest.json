@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/firebase-google-loginREACT/static/css/main.01fcd099.chunk.css",
+    "main.js": "/firebase-google-loginREACT/static/js/main.7b05bd19.chunk.js",
+    "main.js.map": "/firebase-google-loginREACT/static/js/main.7b05bd19.chunk.js.map",
+    "runtime-main.js": "/firebase-google-loginREACT/static/js/runtime-main.1797e29b.js",
+    "runtime-main.js.map": "/firebase-google-loginREACT/static/js/runtime-main.1797e29b.js.map",
+    "static/css/2.cc77c331.chunk.css": "/firebase-google-loginREACT/static/css/2.cc77c331.chunk.css",
+    "static/js/2.595dd0b8.chunk.js": "/firebase-google-loginREACT/static/js/2.595dd0b8.chunk.js",
+    "static/js/2.595dd0b8.chunk.js.map": "/firebase-google-loginREACT/static/js/2.595dd0b8.chunk.js.map",
+    "index.html": "/firebase-google-loginREACT/index.html",
+    "static/css/2.cc77c331.chunk.css.map": "/firebase-google-loginREACT/static/css/2.cc77c331.chunk.css.map",
+    "static/css/main.01fcd099.chunk.css.map": "/firebase-google-loginREACT/static/css/main.01fcd099.chunk.css.map",
+    "static/js/2.595dd0b8.chunk.js.LICENSE.txt": "/firebase-google-loginREACT/static/js/2.595dd0b8.chunk.js.LICENSE.txt",
+    "static/media/moon.88faa461.svg": "/firebase-google-loginREACT/static/media/moon.88faa461.svg",
+    "static/media/search.4598abb4.svg": "/firebase-google-loginREACT/static/media/search.4598abb4.svg",
+    "static/media/send.1ff92537.svg": "/firebase-google-loginREACT/static/media/send.1ff92537.svg",
+    "static/media/sun.eb49c3d1.svg": "/firebase-google-loginREACT/static/media/sun.eb49c3d1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1797e29b.js",
+    "static/css/2.cc77c331.chunk.css",
+    "static/js/2.595dd0b8.chunk.js",
+    "static/css/main.01fcd099.chunk.css",
+    "static/js/main.7b05bd19.chunk.js"
+  ]
+}
